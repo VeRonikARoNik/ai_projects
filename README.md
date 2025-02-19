@@ -10,7 +10,7 @@
 - [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Overview
 
@@ -51,8 +51,3 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 Contributions are welcome! If you have suggestions, bug fixes, or improvements, please feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-Thank you for checking out the **AI Translators Suite**. If you have any questions or suggestions, please don't hesitate to get in touch.
