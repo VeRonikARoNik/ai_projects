@@ -37,3 +37,26 @@
    ```bash
    git clone https://github.com/your_username/ai-translators-suite.git
    cd ai-translators-suite
+
+## Troubleshooting
+
+### OpenMP Issues
+If you encounter errors related to OpenMP (e.g., `KMP_DUPLICATE_LIB_OK`), ensure the following line is at the top of your script:
+
+```python
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
+
+You can then add the following sections for Contributing and License:
+
+```markdown
+## Contributing
+
+Contributions are welcome! If you have suggestions, bug fixes, or improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Thank you for checking out the **AI Translators Suite**. If you have any questions or suggestions, please don't hesitate to get in touch.
