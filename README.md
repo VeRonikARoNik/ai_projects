@@ -37,7 +37,7 @@
    ```bash
    git clone https://github.com/your_username/ai-translators-suite.git
    cd ai-translators-suite
-
+   ```
 ## Troubleshooting
 
 ### OpenMP Issues
@@ -46,11 +46,12 @@ If you encounter errors related to OpenMP (e.g., `KMP_DUPLICATE_LIB_OK`), ensure
 ```python
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-
+```
 
 You can then add the following sections for Contributing and License:
 
 ```markdown
+```
 ## Contributing
 
 Contributions are welcome! If you have suggestions, bug fixes, or improvements, please feel free to open an issue or submit a pull request.
